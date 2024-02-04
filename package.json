@@ -1,0 +1,14 @@
+{
+  "name": "decode-bitcoin-transaction-hex-script",
+  "version": "1.0.0",
+  "description": "This Node.js script decodes a Bitcoin transaction hex, providing details such as version, inputs, outputs, and locktime. Additionally, a sample test script is included to validate the decoding functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.5"
+  }
+}
